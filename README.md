@@ -28,7 +28,7 @@ Le diagramme en barres nous permet principalement une représentation globale de
 ## Méthodes d'uniformisation
 
 Pour une meilleure lisibilité des données, nous avons effectué une uniformisation des données, en faisant correspondreè à `100%` le maximum de chaque variable. Nous avons donc chaque variable exprimée en pourcentage, et nous pouvons ainsi facilement les comparer, car on réduit considérablement les disparités.
-Ensuite, étant donné que certaines variables peuvent être regroupées dans une même catégorie, nous avons procédé à un échantillonnage, en utilisant la moyenne des pourcentages comme estimateur. Nous avons procédé ainsi, de façon progressive, jusqu'à arriver à représenter toute l'économie par une seule variable. Pour cela, nous avons pris le `__Nigéria__`comme pays de référence. Notons que, comme tout estimateur, ces variables synthétiques seront parfois bien représentatives de séries, mais parfois ils arrivent qu'ils soient très loins de la réalité.
+Ensuite, étant donné que certaines variables peuvent être regroupées dans une même catégorie, nous avons procédé à un échantillonnage, en utilisant la moyenne des pourcentages comme estimateur. Nous avons procédé ainsi, de façon progressive, jusqu'à arriver à représenter toute l'économie par une seule variable. Pour cela, nous avons pris le `Nigéria`comme pays de référence. Notons que, comme tout estimateur, ces variables synthétiques seront parfois bien représentatives de séries, mais parfois ils arrivent qu'ils soient très loins de la réalité.
 
 ## Méthodes d'intégration des données
 
