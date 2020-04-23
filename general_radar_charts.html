@@ -25,13 +25,6 @@
     <script src="/script/RadarChart.js"></script>
     <script src="/script/jquery.min.js"></script>
     <script src="/script/bootstrap.min.js"></script>
-    <!-- <script src="https://d3js.org/d3-color.v1.min.js"></script>
-    <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
-    <script src="https://d3js.org/d3-ease.v1.min.js"></script>
-    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
-    <script src="https://d3js.org/d3-selection.v1.min.js"></script>
-    <script src="https://d3js.org/d3-timer.v1.min.js"></script>
-    <script src="https://d3js.org/d3-transition.v1.min.js"></script> -->
   </head>
   <body>
     <div class="container-fluid">
@@ -147,7 +140,6 @@
             .selectAll('svg')
             .append('svg')
             .attr("width", w+800)
-            // .attr("viewBox", "184 27 203 76")
             .attr("height", h);
 
           //Create the title for the legend
@@ -293,10 +285,6 @@
                   chart_datas[y][i].area = word;
                   chart_datas[y][i].value = ((files[y][i]["valeur_"+annee]*100)/M);
                   
-
-                  // if(files[y][i].Indicateur == "balance_paiements") {
-                  //   console.log(chart_datas[y][i].value);
-                  // }
                   
                 }
               }

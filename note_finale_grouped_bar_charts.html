@@ -37,7 +37,7 @@
   </head>
   <body>
     <div id="generalisation">
-      <h1>Présentation Généralisée des données</h1><br>
+      <h1>Représentation du niveau économique des Etats</h1><br>
     </div>
     <script src="/script/datas.js"></script>
     <script src="/script/draw2.js"></script>
@@ -227,11 +227,6 @@
                   chart_datas[y][i].area = word;
                   chart_datas[y][i].value = ((files[y][i]["valeur_"+annee]*100)/M);
                   
-
-                  // if(files[y][i].Indicateur == "balance_paiements") {
-                  //   console.log(chart_datas[y][i].value);
-                  // }
-                  
                 }
               }
               chart_datas[y] = chart_datas[y].filter(el => {
@@ -261,8 +256,6 @@
                 
                 if(typeof chart_datas[y] !== "undefined"){
                   M = list_max(donnees[y].Indicateur,donnees);
-                  // console.log(T);
-                  // console.log(M);
 
                   chart_datas[y].Indicateur = donnees[y].Indicateur;
                   chart_datas[y].valeur_2005 = ((donnees[y]["valeur_2005"]*100)/M);
@@ -270,9 +263,6 @@
                   chart_datas[y].valeur_2019 = ((donnees[y]["valeur_2019"]*100)/M);
                   
 
-                  // if(donnees[y][i].Indicateur == "balance_paiements") {
-                  //   console.log(chart_datas[y][i].value);
-                  // }
                   
                 }
               
@@ -307,8 +297,8 @@
 
           function categorisation(d){
             var data = data_set_all(d);
-            // console.log(data_set_all(data));
-            // console.log(d);
+            
+
             ////////-- Catégorie : Niveau de vie --//////////
             var PIB = data.find(o =>{
               return o.Indicateur === "PIB";
@@ -467,9 +457,6 @@
 
             return [a,b,c,d,e,f,g];
           }
-
-          // console.log(data_set_all(donnees_senegal));
-          // console.log(categorisation(donnees_senegal));
 
 
           
