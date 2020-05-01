@@ -28,7 +28,7 @@ Le diagramme en barres nous permet principalement une représentation globale de
 ## Méthodes d'uniformisation
 
 Pour une meilleure lisibilité des données, nous avons effectué une uniformisation des données, en faisant correspondreè à `100%` le maximum de chaque variable. Nous avons donc chaque variable exprimée en pourcentage, et nous pouvons ainsi facilement les comparer, car on réduit considérablement les disparités.
-Ensuite, étant donné que certaines variables peuvent être regroupées dans une même catégorie, nous avons procédé à un échantillonnage, en utilisant la moyenne des pourcentages comme estimateur. Nous avons procédé ainsi, de façon progressive, jusqu'à arriver à représenter toute l'économie par une seule variable. Pour cela, nous avons pris le `Nigéria`comme pays de référence. Notons que, comme tout estimateur, ces variables synthétiques seront parfois bien représentatives de séries, mais parfois ils arrivent qu'ils soient très loins de la réalité.
+Ensuite, étant donné que certaines variables peuvent être regroupées dans une même catégorie, nous avons procédé à un échantillonnage, en utilisant la moyenne des pourcentages comme estimateur. Nous avons procédé ainsi, de façon progressive, jusqu'à arriver à représenter toute l'économie par une seule variable. Pour cela, nous avons pris le `Nigéria` comme pays de référence. Notons que, comme tout estimateur, ces variables synthétiques seront parfois bien représentatives de séries, mais parfois ils arrivent qu'ils soient très loins de la réalité.
 
 ## Méthodes d'intégration des données
 
@@ -45,29 +45,35 @@ Pour ce projet, nous avons utilisé deux méthodes d'intégration des données, 
 
 Notons que la catégorisation permet en même temps d'éliminer les variables absentes chez certains pays, et donc de faire une étude avec un nombre uniforme de variables.
 
+## Position économique par cumul de points
+
+Cela a été pour nous, une méthode d'une grande précision pour le classement. Pour l'effectuer, nous nous sommes basé sur le premier diagramme radar et son traitement de données, qui permet, pour chaque modalité, d'établir un classement des pays. Nous avons donc pour chacun, attribué des points en fonction du rang de chaque pays. Comme il y a 15 pays, le premier d'une modalité obtient 15 points, le suivant 1 point de moins, s'il y a eu une égalité à un niveau, les pays concernés obtiennent le même nombre de points, etc. Ainsi, au bout du traitement de toutes les modalités, chaque pays accumule des points qui nous permettent de faire un classement. Le pays qui est considéré comme plus développé que les autres est donc celui qui a eu le plus de fois une meilleure position dans les classements par modalité.
+
 ## Images
 
 ### Diagrammes en barres groupés
 
-![Vue générale](https://github.com/louisisaacdiouf/Visualisation-donnees-CEDEAO-final-version/blob/master/captures/Capture1.PNG)
+![Données brutes](https://github.com/louisisaacdiouf/Visualisation-donnees-CEDEAO-final-version/blob/master/captures/Capture1.PNG)
 
 ![Première catégorisation](https://github.com/louisisaacdiouf/Visualisation-donnees-CEDEAO-final-version/blob/master/captures/Capture2.PNG)
 
-![Première catégorisation](https://github.com/louisisaacdiouf/Visualisation-donnees-CEDEAO-final-version/blob/master/captures/Capture3.PNG)
+![Deuxième catégorisation](https://github.com/louisisaacdiouf/Visualisation-donnees-CEDEAO-final-version/blob/master/captures/Capture3.PNG)
 
 ![Niveau économique](https://github.com/louisisaacdiouf/Visualisation-donnees-CEDEAO-final-version/blob/master/captures/Capture4.PNG)
 
-### Diagrammes en barres groupés
+### Diagrammes Radar
 
 ![Comparaison générale](https://github.com/louisisaacdiouf/Visualisation-donnees-CEDEAO-final-version/blob/master/captures/Capture5.PNG)
 
 ![Comparaison des secteurs d'activités](https://github.com/louisisaacdiouf/Visualisation-donnees-CEDEAO-final-version/blob/master/captures/Capture6.PNG)
 
+### Niveau économique par cumul de points du diagramme radar
 
-## Conclusion et perspectives
+![Niveau économique par cumul de points](https://github.com/louisisaacdiouf/Visualisation-donnees-CEDEAO-final-version/blob/master/captures/Capture7.PNG)
 
-Ce projet nous a permis de mener les recherches qui nous ont fait entrevoir les compétences requises pour les sciences des données. Nous avons trouvé qu'il y avait plusieurs manières de faires les représentations et plusieurs bibliothèques disponibles, ce qui nous montre que c'est un domaine florissant.
-Le principal soucis que nous avons rencontré concernant l'étude des données, c'est le fait de ne pas avoir un coefficient ou une indication qui nous montre à quelle point une variable est importante dans l'économie d'un pays car, cela est primordial pour faire la synthèse. En effet, si on arrive à établir un degré de corrélation de chaque variable dans l'économie d'un pays, les représenter après avoir fait les calculs avec leurs coefficients respectifs nous permettraient de voir avec une très grande précision le niveau économique de chaque pays dans l'espace UEMOA.
+## Conclusion
+
+Ce projet nous a permis de mener les recherches qui nous ont fait entrevoir les compétences requises pour les sciences des données. Nous avons trouvé qu'il y avait plusieurs manières de faires les représentations et plusieurs bibliothèques disponibles, ce qui nous montre que c'est un domaine florissant. Avec la méthode cumul de points, nous avons pu établir avec une grande précision la position économique de chaque pays dans l'espace CEDEAO.
 
 
 ##### Un grand merci à tous nos professeurs pour la qualité de l'enseignement et nos camarades de classe pour l'entraide.
